@@ -1,6 +1,6 @@
+Task Screen UI
+
 This project is a simple Social Media Task screen UI built using React, Tailwind CSS, and Vite.  The project is designed as part of a company assignment.
-
-
 
 To run the project locally, follow these steps:
 
