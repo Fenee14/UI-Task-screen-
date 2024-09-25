@@ -1,0 +1,54 @@
+import React from 'react'
+
+ function Task() {
+  return (
+    <>
+  <div className="mt-4 ml-4 flex justify-between items-center">
+ 
+    <h1 className="text-2xl font-bold">Task Details</h1>
+
+   
+    <div className="flex items-center gap-4">
+       
+        <button className="w-28 h-10 rounded-md bg-orange-300">2478</button>
+      
+        <button className="w-28 h-10 rounded-md bg-green-300">$1000</button>
+     
+    <img src="data:image/jpeg;base64,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" alt="User" className="w-15 h-11 rounded-full" />
+     </div>
+</div>
+<div className="flex flex-col items-center space-y-6 mt-12">
+  <div className="w-80 h-32 bg-yellow-500 rounded-lg shadow-lg flex flex-col justify-center items-center p-4">
+    <p className="text-white text-lg font-semibold">Monthly Leaderboard Winner</p>
+    <p className="bg-red-600 text-white text-sm px-3 py-1 rounded-full mt-4">10 Points</p>
+  </div>
+
+  <div className="w-80 h-32 bg-yellow-500 rounded-lg shadow-lg flex flex-col justify-center items-center p-4">
+    <p className="text-white text-lg font-semibold">Share with 5 Friends</p>
+    <p className="bg-red-600 text-white text-sm px-3 py-1 rounded-full mt-4">10 Points</p>
+  </div>
+
+  <div className="w-80 h-32 bg-yellow-500 rounded-lg shadow-lg flex flex-col justify-center items-center p-4">
+    <p className="text-white text-lg font-semibold">Share with 5 Friends</p>
+    <p className="bg-red-600 text-white text-sm px-3 py-1 rounded-full mt-4">10 Points</p>
+  </div>
+
+  <div className="w-80 h-32 bg-yellow-500 rounded-lg shadow-lg flex flex-col justify-center items-center p-4">
+    <p className="text-white text-lg font-semibold">Share with 5 Friends</p>
+    <p className="bg-red-600 text-white text-sm px-3 py-1 rounded-full mt-4">10 Points</p>
+  </div>
+
+  <div className="w-80 h-32 bg-yellow-500 rounded-lg shadow-lg flex flex-col justify-center items-center p-4">
+    <p className="text-white text-lg font-semibold">Share with 5 Friends</p>
+    <p className="bg-red-600 text-white text-sm px-3 py-1 rounded-full mt-4">10 Points</p>
+  </div>
+</div>
+
+
+
+</>
+);
+}
+
+
+export default Task;
